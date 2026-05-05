@@ -14,9 +14,9 @@ si
 Modelare
 3D
 
-<h1>Water Droplet</h1>
-<p>În cadrul acestui proiect, voi modela un mecanism ce descrie căderea unui strop de ploaie într-o baltă. </br> Acest mecanism se bazează pe principiul arborelui cotit, având o serie de palete plasate la un anumit unghi pe o bară, astfel încât, la rotirea bării, înălțimea valurilor va varia, transformând o rotație într-o oscilație.</p>
+<h1>Cinematograf</h1>
+<p>În cadrul acestui proiect, voi modela un videoproiector pentru film </br> Acest mecanism constă într-o manetă ce rotește niște gears, transformând o rotație într-o oscilație verticală pentru a muta un cadru cu o furcă ce avansează filmul la o anumită viteză și un obturator.</p>
 
 <h2>Surse de inspirație</h2>
-<a href="">Exemplu1</a>
-<a href="">Exemplu2</a>
+<a href="https://en.wikipedia.org/wiki/Cinematograph">Cinematograf Lumiere</a>
+
