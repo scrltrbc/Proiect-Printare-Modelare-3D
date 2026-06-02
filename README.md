@@ -34,3 +34,10 @@ Modelare
 <p>Mă gândesc prea mult, cred că doar trebuia să implementez dar nu știu exact și mă deranjează că nu pot vizualiza corect și deduce răspunsul. Am găsit o chestie pe thingiverse, dar nu e funcțională, e doar pentru expunerea principiului, deci NU ARE PARAMETRII PE CARE MĂ CHINUI DE DOUĂ ZILE SĂ ÎI DEDUC CORECT >((((</p>
 <p>Nu am motion study, nu am render, poate pun gcode-ul la componentele parțiale pe care le am. Probabil că nu voi trece, dar oricum e vina mea că am avut o lună la dispoziție.</p>
 <p>Dar ca să închei într-o notă pozitivă, poate termin până la 23:59 :D</p>
+
+<h2>Resurse</h2>
+<ul>
+  <li>https://books.google.ro/books?id=U9eOPjmaH90C&pg=PA83&redir_esc=y#v=onepage&q&f=false</li>
+  <li>https://youtu.be/IrhOnLc-awQ?si=pH1WtPQkJfc1S_We</li>
+  <li>https://www.thingiverse.com/thing:1557789/makes</li>
+</ul>
