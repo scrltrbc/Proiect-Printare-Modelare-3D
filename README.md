@@ -50,6 +50,7 @@ Până la urmă am împărțit cutia în două componente, carcasă și placa ce
 <h1 style="danger">Problem!!!</h1>
 <p>Furca mea ce prinde filmul trebuie să se miște sus-jos și față-spate și nu știu cum să fazez aceste mișcări, sus-jos o mișcă excentricul cu cadrul, dar față spate îmi trebuie un cylindrical cam și nu știu ce parametrii să dau șanțului pentru că nu știu cât timp ar trebui să îmi ia in-out, up-down și cert e că NU SE ÎNTÂMPLĂ SIMULTAN CELE DOUĂ TIPURI DE MIȘCĂRI. Și nici excentricul nu mai înțeleg câte sus-jos îmi dă într-un ciclu 2 sau 3 ;-; </p> 
 <p>Am zis să obturez 90 de grade din 360, adică o pătrime de ciclu, dar pare cam mult că, în timpul obturației coboară filmul și cât e expus iese furca, urcă și intră, dar dacă coboară 90 atunci urcă 90 si e in si e out tot cate 90, poate ar trebui mai puțin?</p>
+<img src="img/calcule1.png"> <img src="img/calcule2.png">
 <p>De revizitat pe viitor toate calculele!!</p>
 
 <h3>Cylindrical cam</h3>
