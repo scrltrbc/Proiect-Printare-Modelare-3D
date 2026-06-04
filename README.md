@@ -38,6 +38,8 @@ Modelare
 
 <Cutie>
 Cutia am împărțit-o în două componente, carcasă și placa centrală pe care vin componentele. Pentru a putea fi cât mai ușor de printat și asamblat, am adăugat carcasei niște fante în care să intre plate-ul și am tăiat-o pe jumătate pentru a nu avea promleme cu straturile la printare (are niște elongații/găuri cadrul că voiam să mai fac și uși).
+<p>Pentru a trasa fantele, am găsit următorul gem de poză cu dimensiunile filmului de 35mm.</p>
+<img src="img/dimensiuni_strip.png">
 
 <h3>Pinioni</h3>
 <p>Presupunând că mânerul e rotit de două ori pe secundă trebuie să îi transmitem rotația axului central pe care stau toate componentele noastre care depind de rotație. Vrem 16fps (la 24 erau prea mari pinionii și trebuia să refac cutia și nu mai încăpea pe bed-ul imprimantei). O rotație completă a axului principal ne dă ciclul unui cadru, deci la 16 cadre și 2 rotiri ne trebuie de 8 ori mai multe, deci small gear cu 10 dinți modul 1 și big gear 80 dinți modul 1 să nu fie prea mare și nici cea mică prea mică...of</p>
