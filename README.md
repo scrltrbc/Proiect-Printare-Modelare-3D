@@ -59,7 +59,8 @@ Până la urmă am împărțit cutia în două componente, carcasă și placa ce
 <h3>Asamblare</h3>
 <p>De aranjat componentele nu a fost dificil. Am mai făcut retușuri după ce le-am adus în același plan (!Get Latest!), dar ce m-a demoralizat din nou au fost animațiile. Cadru și execntric până la urmă am reușit cu contact sets să fac să funcșioneze joint-urile, Dar când au intrat și furca ȘI cam-ul în ecuație...drive, motion link...trist.</p>
 <img src="img/fata.png"> <img src="img/spate.png">
-
+<p>Și câteva imagini randate:</p>
+<img src="img/render_fata.png"> <img src="img/render_side.png"> <img src="img/render_spate.png">
 <h2>Concluzii</h2>
 <p>Mă gândesc prea mult, cred că doar trebuia să implementez dar nu știu exact și mă deranjează că nu pot vizualiza corect și deduce răspunsul. Am găsit o chestie pe thingiverse, dar nu e funcțională, e doar pentru expunerea principiului, deci NU ARE PARAMETRII PE CARE MĂ CHINUI DE DOUĂ ZILE SĂ ÎI DEDUC CORECT >((((</p>
 <p>Nu am motion study, nu am render, poate pun gcode-ul la componentele parțiale pe care le am. Probabil că nu voi trece, dar oricum e vina mea că am avut o lună la dispoziție.</p>
