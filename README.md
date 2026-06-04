@@ -36,8 +36,11 @@ Modelare
 <h3>!Update!</h3>
 <p>Un coleg care este certified CAD engineer mi-a relevat parametrii pentru excentricul triunghiular. Lungimea unui cadru trebuia să fie distanța de la centrul orificiului/axei de rotație la baza triunghiului, eu puneam această lungime pe latură.</p>
 
-<Cutie>
-Cutia am împărțit-o în două componente, carcasă și placa centrală pe care vin componentele. Pentru a putea fi cât mai ușor de printat și asamblat, am adăugat carcasei niște fante în care să intre plate-ul și am tăiat-o pe jumătate pentru a nu avea promleme cu straturile la printare (are niște elongații/găuri cadrul că voiam să mai fac și uși).
+<h3>Cutie</h3>
+La început am zis să rămând fidelă modelului original, dar nu era prea printabil. Mă gândeam să adaug uși care să se îmbine cu niște ieșiri ca niște piciorușe ăntr-o parte și găuri în alta, dar fiindcă pe o parte aveam novoie de gol tot nu aveam cum să plasez să fie printat optim.
+Mai jos e o imagine cu un desen inițial:
+<img src = "img/desen_cutie.png" >
+Până la urmă am împărțit cutia în două componente, carcasă și placa centrală pe care vin componentele. Pentru a putea fi cât mai ușor de printat și asamblat, am adăugat carcasei niște fante în care să intre plate-ul și am tăiat-o pe jumătate pentru a nu avea promleme cu straturile la printare (are niște elongații/găuri cadrul că voiam să mai fac și uși, dar nu am mai făcut).
 <p>Pentru a trasa fantele, am găsit următorul gem de poză cu dimensiunile filmului de 35mm.</p>
 <img src="img/dimensiuni_strip.png">
 
