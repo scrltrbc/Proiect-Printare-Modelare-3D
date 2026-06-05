@@ -1,21 +1,5 @@
-﻿Acest
-repo
-a
-fost
-creat
-pentru
-a
-documenta
-proiectul
-cursului
-de
-Printare
-si
-Modelare
-3D
-
-<h1>Cinematograf</h1>
-<p>În cadrul acestui proiect, voi modela un videoproiector pentru film </br> Acest mecanism constă într-o manetă ce rotește niște gears, transformând o rotație într-o oscilație verticală pentru a muta un cadru cu o furcă ce avansează filmul la o anumită viteză și un obturator.</p>
+﻿<h1>Cinematograf</h1>
+<p>În cadrul acestui proiect, voi modela un videoproiector pentru film. </br> Acest mecanism constă într-o manetă ce rotește niște gears, transformând o rotație într-o oscilație verticală pentru a muta un cadru cu o furcă ce avansează filmul la o anumită viteză și un obturator.</p>
 
 <h2>Surse de inspirație</h2>
 <a href="https://en.wikipedia.org/wiki/Cinematograph">Cinematograf Lumiere</a>
@@ -27,20 +11,20 @@ Modelare
 <h2>Proces</h2>
 
 <h3>Calcule</h3>
-<p>Din păcate, nu există nicăieri pe internet și nici în patentul original nu sunt mărimile exacte ale componentelor, doar princpiul de funcționare este expus și sunt și vreo două formule dar nu prea au sens și explicațiile sunt în franceză și germană scrise de mână, super dubios. Am reușit să găsesc dimensiunea cutiei pe site-ul unui muzeu ce deține o copie a cinematografului.</p>
-<p>Având dimensiunile cutiei, puteam scala o imagine și deduce mărimile celorlalte componente, relativ, dar, de fapt, nu chiar.</p>
+<p>Din păcate, nu există nicăieri pe internet și nici în patentul original nu sunt mărimile exacte ale componentelor, doar princpiul de funcționare este expus și sunt și niște formule, dar explicațiile sunt în germană.</p>
+<p>Am reușit să găsesc dimensiunea cutiei pe site-ul unui muzeu ce deține o copie a cinematografului. Având dimensiunile cutiei, puteam scala o imagine și deduce mărimile celorlalte componente, relativ, dar, de fapt, nu chiar.</p>
 <p>Am găsit un model diy pe Thingiverse, dar este doar demonstrativ, componentele nu sunt modelate pentru a funcționa la niște parametrii corecți.</p>
 <p>Pentru a putea reda o versiune funcțională a mecanismului a trebuit să studiez în profunzime ansamblul de mecanisme ce îl alcătuiesc și să calculez cu atenție și precizie parametrii acestora. Am citit și manuale de matematică și tot nu am înțeles ce dimensiuni ar trebui să îi dau de fapt (https://books.google.ro/books?id=U9eOPjmaH90C&pg=PA83&redir_esc=y#v=onepage&q&f=false !!!nu imi zice cu cat il deplaseaza!!!).</p> 
-<p>Am crezut că i-am dat de cap excentricului triunhiular, dar realizând joint-urile, am observat că îmi mișca doar la jumătate din distanța dorită, așa că am ajuns la concluzia că trebuie să îl dublez, dar după ce am făcut asta și am refăcut și cadrul și joint-urile nu se mai mișca deloc cum trebuia, halucina tare!! Am găsit un site care calculează parametrii pentru excentric și parametrii mei erau halucinați se pare? dar tot nu am înțeles cum trb făcut și efectul pe care îl are excentricitatea, căci site-ul calcula pentru orificiu central, deci iar ar fi trebuit să refac și este foarte târziu și trebuie să învăț la rețele și Radu nu răspunde pe Teams :( (ar fi amuzant să răspundă cât scriu asta :D)</p>
+<p>Am crezut că i-am dat de cap excentricului triunhiular, dar realizând joint-urile, am observat că îmi mișca doar la jumătate din distanța dorită, așa că am ajuns la concluzia că trebuie să îl dublez, dar după ce am făcut asta și am refăcut și cadrul și joint-urile, nu se mai mișca deloc cum trebuia, halucina tare!! Am găsit un site care calculează parametrii pentru excentric și parametrii mei erau halucinați se pare? dar tot nu am înțeles cum trb făcut și efectul pe care îl are excentricitatea, căci site-ul calcula pentru orificiu central, deci iar ar fi trebuit să refac și este foarte târziu și trebuie să învăț la rețele și Radu nu răspunde pe Teams :( (ar fi amuzant să răspundă cât scriu asta :D)</p>
 
 <h3>!Update!</h3>
-<p>Un coleg care este certified CAD engineer mi-a relevat parametrii pentru excentricul triunghiular. Lungimea unui cadru trebuia să fie distanța de la centrul orificiului/axei de rotație la baza triunghiului, eu puneam această lungime pe latură.</p>
+<p>Un coleg care este certified CAD engineer mi-a relevat parametrii pentru excentricul triunghiular. Lungimea unui cadru trebuia să fie distanța de la centrul orificiului/axei de rotație la baza triunghiului, ceea ce are foarte mult sens pentru că elementelul se rotește în jurul axei ce trece prin centrul orificiului, deci de acolo pleacă raza de rotatție, eu puneam această lungime pe latură.</p>
 
 <h3>Cutie</h3>
-La început am zis să rămând fidelă modelului original, dar nu era prea printabil. Mă gândeam să adaug uși care să se îmbine cu niște ieșiri ca niște piciorușe ăntr-o parte și găuri în alta, dar fiindcă pe o parte aveam novoie de gol tot nu aveam cum să plasez să fie printat optim.
-Mai jos e o imagine cu un desen inițial:
+<p>La început am zis să rămân fidelă modelului original, dar nu era prea printabil. Mă gândeam să adaug uși care să se îmbine cu niște ieșiri ca niște piciorușe într-o parte și găuri în alta, dar, fiindcă pe o parte aveam novoie de gol, tot nu aveam cum să plasez să fie printat optim.</p>
+<p>Mai jos e o imagine cu un desen inițial:</p>
 <img src = "img/desen_cutie.png" >
-Până la urmă am împărțit cutia în două componente, carcasă și placa centrală pe care vin componentele. Pentru a putea fi cât mai ușor de printat și asamblat, am adăugat carcasei niște fante în care să intre plate-ul și am tăiat-o pe jumătate pentru a nu avea promleme cu straturile la printare (are niște elongații/găuri cadrul că voiam să mai fac și uși, dar nu am mai făcut).
+Până la urmă am împărțit cutia în două componente, carcasă și placa centrală, pe care vin componentele. Pentru a putea fi cât mai ușor de printat și asamblat, am adăugat carcasei niște fante în care să intre plate-ul și am tăiat-o pe jumătate pentru a nu avea promleme cu straturile la printare.
 <p>Pentru a trasa fantele, am găsit următorul gem de poză cu dimensiunile filmului de 35mm.</p>
 <img src="img/dimensiuni_strip.png">
 
@@ -54,10 +38,11 @@ Până la urmă am împărțit cutia în două componente, carcasă și placa ce
 <p>De revizitat pe viitor toate calculele!!</p>
 
 <h3>Cylindrical cam</h3>
-<p>Denumit foarte stângaci de mine la început roată cu șanț, am descoperit ulterior denumirea tehnică a mecanismului. Și aici am avut probleme, pe lângă metrici. Încercând să fac punțile centrale, m-am lovit de marea dilemă a SUBTRACT-ului ce nu există în Fusion. Pentru că încercam să tai pe grosimea cilindrului, și nu puteam face sketch pe o suprafață rotunjită și dând extrude dintr-un plan plat, tangent la acea suprafață, nu se tăia tot, ci din ce în ce mai puțin cu cât se curba. Ce bine era dacă aveam SUBTRACT, dar am reușit să îi dau de cap (mulțumită colegului meu Cristi, care după ce mi-a zis să dau SUBTRACT și eu tot încercam să îi explic că nu există așa ceva aici, a zis "ia dă-mi mie că învăț și Fusion acum" și a tăiat cu 0.10 mai mult și a observat ca se taie mai mult decât aveam nevoie pentru a rămâne uniform, dar a zis să extrudez pereții mici care ieșeau în afară, dar erau oblici și nu acopereau forma). Și BAM! după am tăiat muuuult mai mult în adâncime cât să nu ramâne niciun ciot și am extrudat din cercul inițial care era fața suprafața cât să rămână neted șanțul. Și am realizat că dacă mă gândeam la asta de la început era mult mai eficient că sunt doar 2 comenzi și pt SUBTRACT trebuia să copiez obietul să îi dau intersect cu ce voiam să tai și apoi să dau subtract la bucata aia. Deci W fusion L Autocad idk, cam overrated SUBTRACT, trebuie să mă dezvăț de el.</p>
+<p>Denumit foarte stângaci de mine la început roată cu șanț, am descoperit ulterior denumirea tehnică a mecanismului.</p>
+<p>Și aici am avut probleme, pe lângă metrici. Încercând să fac punțile centrale, m-am lovit de marea dilemă a SUBTRACT-ului ce nu există în Fusion. Pentru că încercam să tai pe grosimea cilindrului, și nu puteam face sketch pe o suprafață rotunjită și dând extrude dintr-un plan plat, tangent la acea suprafață, nu se tăia tot, ci din ce în ce mai puțin cu cât se curba. Ce bine era dacă aveam SUBTRACT, dar am reușit să îi dau de cap (mulțumită colegului meu Cristi, care după ce mi-a zis să dau SUBTRACT și eu tot încercam să îi explic că nu există așa ceva aici, a zis "ia dă-mi mie că învăț și Fusion acum" și a tăiat cu 0.10 mai mult și a observat ca se taie mai mult decât aveam nevoie pentru a rămâne uniform, dar a zis să extrudez pereții mici care ieșeau în afară, dar erau oblici și nu acopereau forma). Și BAM! după am tăiat muuuult mai mult în adâncime cât să nu ramâne niciun ciot și am extrudat din cercul inițial, din care am extrudat corpul cilindric, cercul cu raza necesară cât să rămână neted șanțul. Și am realizat că dacă mă gândeam la asta de la început era mult mai eficient că sunt doar 2 comenzi și pt SUBTRACT trebuia să copiez obietul să îi dau intersect cu ce voiam să tai și apoi să dau subtract la bucata aia. Deci W fusion, L Autocad idk, cam overrated SUBTRACT, trebuie să mă dezvăț de el.</p>
 
 <h3>Asamblare</h3>
-<p>De aranjat componentele nu a fost dificil. Am mai făcut retușuri după ce le-am adus în același plan (!Get Latest!), dar ce m-a demoralizat din nou au fost animațiile. Cadru și execntric până la urmă am reușit cu contact sets să fac să funcșioneze joint-urile, Dar când au intrat și furca ȘI cam-ul în ecuație...drive, motion link...trist.</p>
+<p>De aranjat componentele nu a fost dificil. Am mai făcut retușuri după ce le-am adus în același plan (!Get Latest!), dar ce m-a demoralizat din nou au fost animațiile. Cadru și execntric până la urmă am reușit cu contact sets să fac să funcționeze joint-urile, Dar când au intrat și furca ȘI cam-ul în ecuație...drive, motion link...trist.</p>
 <img src="img/fata.png"> <img src="img/spate.png">
 <p>Și câteva imagini randate:</p>
 <img src="img/render_fata.png"> <img src="img/render_side.png"> <img src="img/render_spate.png">
@@ -68,11 +53,14 @@ Până la urmă am împărțit cutia în două componente, carcasă și placa ce
 <p>Dar ca să închei într-o notă pozitivă, poate termin până la 23:59 :D</p>
 <h3>!UPDATE!</h3>
 Mulțumesc, Radu, pentru înțelegere, chiar sper să găsesc cifrele când voi avea timp de gândire!</p>
-<p>Chiar dacă e super stângaci proiectul, funcționează parțial și arată drăguțel.</p>
+<p>Chiar dacă e super stângaci proiectul, funcționează parțial și arată drăguțel :)</p>
 
 <h2>Resurse</h2>
 <ul>
   <li>https://books.google.ro/books?id=U9eOPjmaH90C&pg=PA83&redir_esc=y#v=onepage&q&f=false</li>
   <li>https://youtu.be/IrhOnLc-awQ?si=pH1WtPQkJfc1S_We</li>
   <li>https://www.thingiverse.com/thing:1557789/makes</li>
+  <li>https://www.dpma.de/docs/dpma/veroeffentlichungen/de84722a_lumiere1895.pdf</li>
+  <li>https://www.youtube.com/watch?v=7Q_SgMvTO-o&t=21s</li>
+  <li>https://collection.sciencemuseumgroup.org.uk/objects/co8084630/lumiere-cinematographe</li>
 </ul>
